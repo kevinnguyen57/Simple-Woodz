@@ -1,0 +1,125 @@
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+html, body, div {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.hero{
+  height: 65%;
+  background-image: linear-gradient(rgba(50,0,0,0.5), rgba(50,0,0,0.5)), url("https://cdn.discordapp.com/attachments/729069688801329272/825465289314795590/image0.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-title{
+  font-size: 7vw;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  text-shadow: 3px 3px #000;
+}
+
+.intro-start{
+  font-size: 2vw;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  color: rgb(238, 231, 231);
+  font-weight: 900;
+  width: 900px;
+  position: absolute;
+  right: 450px;
+}
+
+.intro-middle{
+  box-sizing: border-box;
+  font-size:140%;
+  margin-left: 500px;
+  margin-right: 400px;
+  margin-top: 400px;
+  text-align: left;
+  position: absolute;
+  font-family:100%;
+  color: white;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+html{
+  background-color: darkslategrey;
+}
+footer {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: #555;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ccc;
+}
+
+.sidenav {
+  height: 100%;
+  width: 140px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+button {
+  background-color:red;
+  border: black;
+  position: relative;
+  top: 104%;
+  left: 46.5%;
+  color: white;
+  padding: 15px 32px;
+  align-items: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
